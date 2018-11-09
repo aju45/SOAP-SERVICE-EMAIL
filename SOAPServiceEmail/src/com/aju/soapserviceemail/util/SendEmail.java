@@ -34,7 +34,7 @@ public class SendEmail {
 		new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
 				
-				return new PasswordAuthentication(emailData.getFromAddress(),"qwertyajmal123");
+				return new PasswordAuthentication(emailData.getFromAddress(),"/* your password of gmail */");
 			}
 		});
 
